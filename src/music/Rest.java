@@ -56,4 +56,9 @@ public class Rest implements Music {
     public String toString() {
         return "." + duration;
     }
+
+    
+    public double duration() {
+        return duration;
+    }
 }
